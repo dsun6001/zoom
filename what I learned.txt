@@ -1,0 +1,7 @@
+I've learned that although there are many frameworks out there for web development and how it may seem overwhelming, the most important thing is to master the fundamentals: HTML, CSS, and JavaScript, because the many frameworks out there all are derived from these languages. 
+
+I've also learned that there are many things other than programming when it comes to full stack development; such as HTTP & REST, Git. I've also learned that Google expects their front-end developers to have solid Computer Science foundation, such as being able to understand tree traversal, sorting, algorithm analysis, matrix manipulation, etc.
+
+I've learned the significance of JavaScript in modern development, and it being the most popular language across front-end, back-end, and full-stack development. I've also learned that there are many nuances to JavaScript such as closures, event delegation, and asynchronous control flow.
+
+I've learned that in terms of becoming a full-stack developer, commitment to the chosen language is important. I've learned that understanding the underlying concepts of the languages is the most important, as most back-end languages have similar semantics. It's reassuring to learn that one doesn't have to learn all the languages, rather it's enough to perhaps just master one, as it will make it easy to understand the others.

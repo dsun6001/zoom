@@ -1,0 +1,92 @@
+h2{
+    font-family:Tahoma;
+    color: #ff8737;
+    padding: 0px 75px;
+}
+.header1{
+    font-family:Tahoma;
+    color: #ff8737;
+    padding: 0px 50px;
+}
+p{
+    font-family:Tahoma;
+    color: #e9e9e9;
+    padding: 0px 50px;
+    word-spacing: 0.05em;
+}
+.homeBackground{
+    background-color:#2e2e2e;
+    /* '../' in file path means exiting out the current directory (in this case it's the css folder) */
+    background-image: url('../images/hero.jpg');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.homeText{
+    font-family:Tahoma;
+    font-size: 20px;
+    text-align: center;
+}
+.aboutBackground{
+    background-color:#2e2e2e;
+    
+}
+.aboutImg{
+    display: block;
+    width: 800px; /* Adjust the width as needed */
+    height: auto;
+    padding: 0px 50px;
+}
+table{
+    width: 800px;
+    padding: 50px 50px;
+    text-align: left;
+    font-family:Tahoma;
+    color: #e9e9e9;
+}
+/* referenced from video https://www.youtube.com/watch?v=rnhoY5Cdmy0&ab_channel=dcode*/
+.imageGrid{
+    --gap: 16px;
+    --num-cols: 3;
+    --row-height: 300px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+.imageGrid > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0px 50px;
+}
+th{
+    color: #ff8737;
+}
+.header{
+    text-align: center;
+}
+.logo{
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+    padding: 100px 50px;
+}
+.nav{
+    padding: 100px;
+    text-align: center;
+    justify-content: space-around;
+}
+.nav a{
+    font-family:Tahoma;
+    padding: 20px;
+    color: #fff; /* Text color for links */
+}
+.nav a:hover{
+    color: #ff8737;
+}
+

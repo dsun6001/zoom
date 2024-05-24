@@ -15,13 +15,17 @@ p{
     word-spacing: 0.05em;
 }
 .homeBackground{
-    background-color:#2e2e2e;
+    margin: 20px;
+    border: 0;
+    padding: 0;
+    /* background-color:#2e2e2e; */
     /* '../' in file path means exiting out the current directory (in this case it's the css folder) */
     background-image: url('../images/hero.jpg');
     
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 .homeText{
     font-family:Tahoma;
